@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projetos | André Wanderley Porto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="page-fade inner-page">
+    <!-- Top Right Controls -->
+    <div class="top-controls">
+      <button
+        class="theme-toggle-btn icon-only lang-toggle-btn"
+        id="langToggle"
+        aria-label="Alternar idioma"
+      >
+        <img src="https://flagcdn.com/w40/br.png" alt="Português" />
+      </button>
+      <button
+        class="theme-toggle-btn icon-only"
+        id="themeToggle"
+        aria-label="Alternar tema"
+      >
+        <svg
+          width="20"
+          height="20"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+        >
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+        </svg>
+      </button>
+    </div>
+    <nav class="pill-nav" id="navbar">
+      <ul class="nav-links">
+        <li>
+          <a href="index.html" class="nav-link" data-i18n="nav_home">Início</a>
+        </li>
+        <li>
+          <a href="curriculo.html" class="nav-link" data-i18n="nav_resume"
+            >Currículo</a
+          >
+        </li>
+        <li>
+          <a
+            href="projetos.html"
+            class="nav-link active"
+            data-i18n="nav_projects"
+            >Projetos</a
+          >
+        </li>
+        <li>
+          <a
+            href="certificacoes.html"
+            class="nav-link"
+            data-i18n="nav_certifications"
+            >Certificações</a
+          >
+        </li>
+        <li>
+          <a href="contato.html" class="nav-link" data-i18n="nav_contact"
+            >Contato</a
+          >
+        </li>
+      </ul>
+      <div class="hamburger" id="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+    </nav>
+    <div class="mobile-menu" id="mobileMenu">
+      <ul class="mobile-nav-links">
+        <li>
+          <a href="index.html" class="mobile-nav-link" data-i18n="nav_home"
+            >Início</a
+          >
+        </li>
+        <li>
+          <a
+            href="curriculo.html"
+            class="mobile-nav-link"
+            data-i18n="nav_resume"
+            >Currículo</a
+          >
+        </li>
+        <li>
+          <a
+            href="projetos.html"
+            class="mobile-nav-link"
+            data-i18n="nav_projects"
+            >Projetos</a
+          >
+        </li>
+        <li>
+          <a
+            href="certificacoes.html"
+            class="mobile-nav-link"
+            data-i18n="nav_certifications"
+            >Certificações</a
+          >
+        </li>
+        <li>
+          <a href="contato.html" class="mobile-nav-link" data-i18n="nav_contact"
+            >Contato</a
+          >
+        </li>
+      </ul>
+    </div>
+
+    <main class="main-content">
+      <section id="projects" class="section-container mt-section mb-5">
+        <div class="section-header">
+          <span class="section-subtitle" data-i18n="proj_subtitle"
+            >PROJETOS</span
+          >
+          <h2 class="section-title" data-i18n="proj_title">
+            Projetos e estudos de caso
+          </h2>
+          <p class="section-desc" data-i18n="proj_desc">
+            Cases completos com contexto, decisões técnicas, arquitetura e
+            resultados em desenvolvimento backend, dados e cloud.
+          </p>
+        </div>
+
+        <div class="projects-grid-large">
+          <!-- Project 1 -->
+          <div class="project-card-large">
+            <div class="project-img-wrapper">
+              <img
+                src="assets/images/project1.png"
+                alt="Data Engineering Project"
+              />
+              <span class="badge-float" data-i18n="proj_badge_featured"
+                >DESTAQUE</span
+              >
+            </div>
+            <div class="project-content-large">
+              <span class="project-category" data-i18n="proj_1_cat"
+                >ENGENHARIA DE DADOS</span
+              >
+              <h3 class="project-title-large" data-i18n="proj_1_title">
+                Data Engineering Project — End-to-End ETL &amp; Analytics
+              </h3>
+              <p class="project-desc-large" data-i18n="proj_1_desc">
+                Projeto prático de Engenharia de Dados focado na criação de um
+                pipeline completo com Python, SQL e arquitetura de Data
+                Warehouse. Envolveu extração de dados de banco transacional,
+                transformação e modelagem em tabelas fato e dimensão, carga no
+                Data Warehouse e criação de dashboards analíticos no Metabase
+                para geração de insights de negócio.
+              </p>
+              <div class="project-meta mt-4">
+                <strong
+                  style="
+                    color: var(--text-muted);
+                    font-size: 0.75rem;
+                    letter-spacing: 1px;
+                  "
+                  data-i18n="proj_meta_label"
+                  >O QUE DEMONSTRA</strong
+                >
+                <p
+                  style="font-size: 0.9rem; margin-top: 0.2rem"
+                  data-i18n="proj_1_meta"
+                >
+                  Processos ETL, pipelines de dados, modelagem dimensional, Data
+                  Warehouse e analytics com Metabase.
+                </p>
+              </div>
+              <div class="project-tags mt-4">
+                <span>Python</span>
+                <span>SQL</span>
+                <span>Metabase</span>
+                <span>ETL</span>
+                <span>Data Warehouse</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="mt-section pb-4">
+      <div class="footer-content section-container">
+        <p data-i18n="footer_rights">
+          &copy; 2026 André Wanderley Porto. Todos os direitos reservados.
+        </p>
+        <div class="social-links">
+          <a href="https://github.com/Andrewanport" aria-label="GitHub"
+            ><svg
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+              ></path></svg
+          ></a>
+          <a href="https://www.linkedin.com/in/andrewanp" aria-label="LinkedIn"
+            ><svg
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
+              ></path>
+              <rect x="2" y="9" width="4" height="12"></rect>
+              <circle cx="4" cy="4" r="2"></circle></svg
+          ></a>
+        </div>
+      </div>
+    </footer>
+    <script src="js/translations.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>André Wanderley Porto | Portfólio</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="page-fade">
+    <!-- Top Right Controls -->
+    <div class="top-controls">
+      <button
+        class="theme-toggle-btn icon-only lang-toggle-btn"
+        id="langToggle"
+        aria-label="Alternar idioma"
+      >
+        <img src="https://flagcdn.com/w40/br.png" alt="Português" />
+      </button>
+      <button
+        class="theme-toggle-btn icon-only"
+        id="themeToggle"
+        aria-label="Alternar tema"
+      >
+        <svg
+          width="20"
+          height="20"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+        >
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+        </svg>
+      </button>
+    </div>
+
+    <!-- Floating Navbar -->
+    <nav class="pill-nav" id="navbar">
+      <ul class="nav-links">
+        <li>
+          <a href="index.html" class="nav-link active" data-i18n="nav_home"
+            >Início</a
+          >
+        </li>
+        <li>
+          <a href="curriculo.html" class="nav-link" data-i18n="nav_resume"
+            >Currículo</a
+          >
+        </li>
+        <li>
+          <a href="projetos.html" class="nav-link" data-i18n="nav_projects"
+            >Projetos</a
+          >
+        </li>
+        <li>
+          <a
+            href="certificacoes.html"
+            class="nav-link"
+            data-i18n="nav_certifications"
+            >Certificações</a
+          >
+        </li>
+        <li>
+          <a href="contato.html" class="nav-link" data-i18n="nav_contact"
+            >Contato</a
+          >
+        </li>
+      </ul>
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu" id="mobileMenu">
+      <ul class="mobile-nav-links">
+        <li>
+          <a href="index.html" class="mobile-nav-link" data-i18n="nav_home"
+            >Início</a
+          >
+        </li>
+        <li>
+          <a
+            href="curriculo.html"
+            class="mobile-nav-link"
+            data-i18n="nav_resume"
+            >Currículo</a
+          >
+        </li>
+        <li>
+          <a
+            href="projetos.html"
+            class="mobile-nav-link"
+            data-i18n="nav_projects"
+            >Projetos</a
+          >
+        </li>
+        <li>
+          <a
+            href="certificacoes.html"
+            class="mobile-nav-link"
+            data-i18n="nav_certifications"
+            >Certificações</a
+          >
+        </li>
+        <li>
+          <a href="contato.html" class="mobile-nav-link" data-i18n="nav_contact"
+            >Contato</a
+          >
+        </li>
+      </ul>
+    </div>
+
+    <!-- Main Dynamic Content Wrapper -->
+    <main class="main-content">
+      <!-- Hero Section -->
+      <section id="home" class="hero-centered">
+        <div class="hero-container">
+          <div class="profile-pic-container">
+            <div class="profile-pic">
+              <img src="assets/images/pfp.png" alt="André Wanderley Porto" />
+            </div>
+          </div>
+
+          <h1 class="name">André Wanderley Porto</h1>
+          <p class="tagline" data-i18n="hero_tagline">
+            Infraestrutura <span>|</span> Desenvolvedor Backend
+            <span>|</span> Engenheiro de Dados
+          </p>
+
+          <div class="hero-actions">
+            <a
+              href="curriculo.html"
+              class="btn btn-pill-solid"
+              data-i18n="hero_btn_resume"
+              >Ver currículo</a
+            >
+            <a
+              href="projetos.html"
+              class="btn btn-pill-solid"
+              data-i18n="hero_btn_projects"
+              >Ver projetos</a
+            >
+            <a
+              href="contato.html"
+              class="btn btn-pill-outline"
+              data-i18n="hero_btn_contact"
+            >
+              Entrar em contato
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="mt-section pb-4">
+      <div class="footer-content section-container">
+        <p data-i18n="footer_rights">
+          &copy; 2026 André Wanderley Porto. Todos os direitos reservados.
+        </p>
+        <div class="social-links">
+          <a href="https://github.com/Andrewanport" aria-label="GitHub"
+            ><svg
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+              ></path></svg
+          ></a>
+          <a href="https://www.linkedin.com/in/andrewanp" aria-label="LinkedIn"
+            ><svg
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
+              ></path>
+              <rect x="2" y="9" width="4" height="12"></rect>
+              <circle cx="4" cy="4" r="2"></circle></svg
+          ></a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/translations.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

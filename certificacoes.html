@@ -1,0 +1,729 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Certificações | André Wanderley Porto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="page-fade inner-page certifications-page">
+    <!-- Top Right Controls -->
+    <div class="top-controls">
+      <button
+        class="theme-toggle-btn icon-only lang-toggle-btn"
+        id="langToggle"
+        aria-label="Alternar idioma"
+      >
+        <img src="https://flagcdn.com/w40/br.png" alt="Português" />
+      </button>
+      <button
+        class="theme-toggle-btn icon-only"
+        id="themeToggle"
+        aria-label="Alternar tema"
+      >
+        <svg
+          width="20"
+          height="20"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+        >
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+        </svg>
+      </button>
+    </div>
+    <nav class="pill-nav" id="navbar">
+      <ul class="nav-links">
+        <li>
+          <a href="index.html" class="nav-link" data-i18n="nav_home">Início</a>
+        </li>
+        <li>
+          <a href="curriculo.html" class="nav-link" data-i18n="nav_resume"
+            >Currículo</a
+          >
+        </li>
+        <li>
+          <a href="projetos.html" class="nav-link" data-i18n="nav_projects"
+            >Projetos</a
+          >
+        </li>
+        <li>
+          <a
+            href="certificacoes.html"
+            class="nav-link active"
+            data-i18n="nav_certifications"
+            >Certificações</a
+          >
+        </li>
+        <li>
+          <a href="contato.html" class="nav-link" data-i18n="nav_contact"
+            >Contato</a
+          >
+        </li>
+      </ul>
+      <div class="hamburger" id="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+    </nav>
+    <div class="mobile-menu" id="mobileMenu">
+      <ul class="mobile-nav-links">
+        <li>
+          <a href="index.html" class="mobile-nav-link" data-i18n="nav_home"
+            >Início</a
+          >
+        </li>
+        <li>
+          <a
+            href="curriculo.html"
+            class="mobile-nav-link"
+            data-i18n="nav_resume"
+            >Currículo</a
+          >
+        </li>
+        <li>
+          <a
+            href="projetos.html"
+            class="mobile-nav-link"
+            data-i18n="nav_projects"
+            >Projetos</a
+          >
+        </li>
+        <li>
+          <a
+            href="certificacoes.html"
+            class="mobile-nav-link"
+            data-i18n="nav_certifications"
+            >Certificações</a
+          >
+        </li>
+        <li>
+          <a href="contato.html" class="mobile-nav-link" data-i18n="nav_contact"
+            >Contato</a
+          >
+        </li>
+      </ul>
+    </div>
+
+    <main class="main-content">
+      <section id="certifications" class="section-container mt-section mb-5">
+        <div class="section-header">
+          <span class="section-subtitle" data-i18n="cert_subtitle"
+            >CREDENCIAIS</span
+          >
+          <h2 class="section-title" data-i18n="cert_title">Certificações</h2>
+          <p class="section-desc" data-i18n="cert_desc">
+            Provas de conhecimento oficial e credenciamentos por provedores
+            líderes de nuvem e tecnologia.
+          </p>
+        </div>
+
+        <div class="certifications-grid mt-5">
+          <!-- Cert 1 -->
+          <div class="cert-card-bento">
+            <div class="cert-visual-wrapper placeholder-img-light">
+              <i
+                class="devicon-amazonwebservices-plain text-white"
+                style="font-size: 3rem"
+              ></i>
+            </div>
+            <div class="cert-details">
+              <span class="cert-category">AWS</span>
+              <h4>AWS Certified Cloud Practitioner</h4>
+              <span class="cert-level text-muted">Foundational</span>
+              <div class="cert-actions mt-3" style="display: flex; gap: 0.5rem">
+                <a
+                  href="#"
+                  target="_blank"
+                  class="btn btn-pill-outline"
+                  style="padding: 0.4rem 0.8rem; font-size: 0.8rem"
+                  data-i18n="cert_btn_view"
+                  >Ver PDF</a
+                >
+                <a
+                  href="#"
+                  download
+                  class="btn btn-pill-solid"
+                  style="padding: 0.4rem 0.8rem; font-size: 0.8rem"
+                  data-i18n="cert_btn_download"
+                  >Baixar</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- Cert 2 -->
+          <div class="cert-card-bento">
+            <div class="cert-visual-wrapper placeholder-img-light">
+              <i
+                class="devicon-amazonwebservices-plain text-white"
+                style="font-size: 3rem"
+              ></i>
+            </div>
+            <div class="cert-details">
+              <span class="cert-category">AWS</span>
+              <h4>AWS Certified Developer - Associate</h4>
+              <span class="cert-level text-muted">Associate</span>
+              <div class="cert-actions mt-3" style="display: flex; gap: 0.5rem">
+                <a
+                  href="#"
+                  target="_blank"
+                  class="btn btn-pill-outline"
+                  style="padding: 0.4rem 0.8rem; font-size: 0.8rem"
+                  data-i18n="cert_btn_view"
+                  >Ver PDF</a
+                >
+                <a
+                  href="#"
+                  download
+                  class="btn btn-pill-solid"
+                  style="padding: 0.4rem 0.8rem; font-size: 0.8rem"
+                  data-i18n="cert_btn_download"
+                  >Baixar</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- Cert 3 -->
+          <div class="cert-card-bento">
+            <div class="cert-visual-wrapper placeholder-img-light">
+              <i
+                class="devicon-amazonwebservices-plain text-white"
+                style="font-size: 3rem"
+              ></i>
+            </div>
+            <div class="cert-details">
+              <span class="cert-category">AWS</span>
+              <h4>AWS Certified Solutions Architect - Associate</h4>
+              <span class="cert-level text-muted">Associate</span>
+              <div class="cert-actions mt-3" style="display: flex; gap: 0.5rem">
+                <a
+                  href="#"
+                  target="_blank"
+                  class="btn btn-pill-outline"
+                  style="padding: 0.4rem 0.8rem; font-size: 0.8rem"
+                  data-i18n="cert_btn_view"
+                  >Ver PDF</a
+                >
+                <a
+                  href="#"
+                  download
+                  class="btn btn-pill-solid"
+                  style="padding: 0.4rem 0.8rem; font-size: 0.8rem"
+                  data-i18n="cert_btn_download"
+                  >Baixar</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- Cert 4 -->
+          <div class="cert-card-bento">
+            <div class="cert-visual-wrapper placeholder-img-light">
+              <i
+                class="devicon-amazonwebservices-plain text-white"
+                style="font-size: 3rem"
+              ></i>
+            </div>
+            <div class="cert-details">
+              <span class="cert-category">AWS</span>
+              <h4>AWS Cloud Economics / Sales Accredited</h4>
+              <span class="cert-level text-muted">Partner</span>
+              <div class="cert-actions mt-3" style="display: flex; gap: 0.5rem">
+                <a
+                  href="#"
+                  target="_blank"
+                  class="btn btn-pill-outline"
+                  style="padding: 0.4rem 0.8rem; font-size: 0.8rem"
+                  data-i18n="cert_btn_view"
+                  >Ver PDF</a
+                >
+                <a
+                  href="#"
+                  download
+                  class="btn btn-pill-solid"
+                  style="padding: 0.4rem 0.8rem; font-size: 0.8rem"
+                  data-i18n="cert_btn_download"
+                  >Baixar</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Udemy Cert 1 -->
+          <div class="cert-card-bento">
+            <div class="cert-visual-wrapper placeholder-img-light">
+              <span
+                class="text-white"
+                style="
+                  font-size: 1.6rem;
+                  font-weight: 700;
+                  letter-spacing: 0.5px;
+                "
+                >Udemy</span
+              >
+            </div>
+            <div class="cert-details">
+              <span class="cert-category">UDEMY</span>
+              <h4>
+                Amazon Q Developer for Programmers and DevOps AWS AI coding
+              </h4>
+              <div class="cert-tech-tags">
+                <span>AWS</span>
+                <span>Amazon Q</span>
+                <span>DevOps</span>
+              </div>
+              <div class="cert-actions mt-3" style="display: flex; gap: 0.5rem">
+                <a
+                  href="#"
+                  target="_blank"
+                  class="btn btn-pill-outline"
+                  style="padding: 0.4rem 0.8rem; font-size: 0.8rem"
+                  data-i18n="cert_btn_view"
+                  >Ver PDF</a
+                >
+                <a
+                  href="#"
+                  download
+                  class="btn btn-pill-solid"
+                  style="padding: 0.4rem 0.8rem; font-size: 0.8rem"
+                  data-i18n="cert_btn_download"
+                  >Baixar</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Udemy Cert 2 -->
+          <div class="cert-card-bento">
+            <div class="cert-visual-wrapper placeholder-img-light">
+              <span
+                class="text-white"
+                style="
+                  font-size: 1.6rem;
+                  font-weight: 700;
+                  letter-spacing: 0.5px;
+                "
+                >Udemy</span
+              >
+            </div>
+            <div class="cert-details">
+              <span class="cert-category">UDEMY</span>
+              <h4>Computação em Nuvem Amazon AWS para Iniciantes</h4>
+              <div class="cert-tech-tags">
+                <span>AWS</span>
+                <span>Cloud</span>
+                <span>Fundamentals</span>
+              </div>
+              <div class="cert-actions mt-3" style="display: flex; gap: 0.5rem">
+                <a
+                  href="#"
+                  target="_blank"
+                  class="btn btn-pill-outline"
+                  style="padding: 0.4rem 0.8rem; font-size: 0.8rem"
+                  data-i18n="cert_btn_view"
+                  >Ver PDF</a
+                >
+                <a
+                  href="#"
+                  download
+                  class="btn btn-pill-solid"
+                  style="padding: 0.4rem 0.8rem; font-size: 0.8rem"
+                  data-i18n="cert_btn_download"
+                  >Baixar</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Udemy Cert 3 -->
+          <div class="cert-card-bento">
+            <div class="cert-visual-wrapper placeholder-img-light">
+              <span
+                class="text-white"
+                style="
+                  font-size: 1.6rem;
+                  font-weight: 700;
+                  letter-spacing: 0.5px;
+                "
+                >Udemy</span
+              >
+            </div>
+            <div class="cert-details">
+              <span class="cert-category">UDEMY</span>
+              <h4>Aprenda DOCKER do Zero ao Avançado</h4>
+              <div class="cert-tech-tags">
+                <span>Docker</span>
+                <span>Containers</span>
+                <span>DevOps</span>
+              </div>
+              <div class="cert-actions mt-3" style="display: flex; gap: 0.5rem">
+                <a
+                  href="#"
+                  target="_blank"
+                  class="btn btn-pill-outline"
+                  style="padding: 0.4rem 0.8rem; font-size: 0.8rem"
+                  data-i18n="cert_btn_view"
+                  >Ver PDF</a
+                >
+                <a
+                  href="#"
+                  download
+                  class="btn btn-pill-solid"
+                  style="padding: 0.4rem 0.8rem; font-size: 0.8rem"
+                  data-i18n="cert_btn_download"
+                  >Baixar</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Udemy Cert 4 -->
+          <div class="cert-card-bento">
+            <div class="cert-visual-wrapper placeholder-img-light">
+              <span
+                class="text-white"
+                style="
+                  font-size: 1.6rem;
+                  font-weight: 700;
+                  letter-spacing: 0.5px;
+                "
+                >Udemy</span
+              >
+            </div>
+            <div class="cert-details">
+              <span class="cert-category">UDEMY</span>
+              <h4>
+                Amazon DynamoDB para Iniciantes - Aprenda Banco NoSQL da AWS
+              </h4>
+              <div class="cert-tech-tags">
+                <span>DynamoDB</span>
+                <span>NoSQL</span>
+                <span>AWS</span>
+              </div>
+              <div class="cert-actions mt-3" style="display: flex; gap: 0.5rem">
+                <a
+                  href="#"
+                  target="_blank"
+                  class="btn btn-pill-outline"
+                  style="padding: 0.4rem 0.8rem; font-size: 0.8rem"
+                  data-i18n="cert_btn_view"
+                  >Ver PDF</a
+                >
+                <a
+                  href="#"
+                  download
+                  class="btn btn-pill-solid"
+                  style="padding: 0.4rem 0.8rem; font-size: 0.8rem"
+                  data-i18n="cert_btn_download"
+                  >Baixar</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Udemy Cert 5 -->
+          <div class="cert-card-bento">
+            <div class="cert-visual-wrapper placeholder-img-light">
+              <span
+                class="text-white"
+                style="
+                  font-size: 1.6rem;
+                  font-weight: 700;
+                  letter-spacing: 0.5px;
+                "
+                >Udemy</span
+              >
+            </div>
+            <div class="cert-details">
+              <span class="cert-category">UDEMY</span>
+              <h4>Aprenda a Criar Servidores Virtuais com EC2 na Amazon AWS</h4>
+              <div class="cert-tech-tags">
+                <span>EC2</span>
+                <span>AWS</span>
+                <span>Linux</span>
+              </div>
+              <div class="cert-actions mt-3" style="display: flex; gap: 0.5rem">
+                <a
+                  href="#"
+                  target="_blank"
+                  class="btn btn-pill-outline"
+                  style="padding: 0.4rem 0.8rem; font-size: 0.8rem"
+                  data-i18n="cert_btn_view"
+                  >Ver PDF</a
+                >
+                <a
+                  href="#"
+                  download
+                  class="btn btn-pill-solid"
+                  style="padding: 0.4rem 0.8rem; font-size: 0.8rem"
+                  data-i18n="cert_btn_download"
+                  >Baixar</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Udemy Cert 6 -->
+          <div class="cert-card-bento">
+            <div class="cert-visual-wrapper placeholder-img-light">
+              <span
+                class="text-white"
+                style="
+                  font-size: 1.6rem;
+                  font-weight: 700;
+                  letter-spacing: 0.5px;
+                "
+                >Udemy</span
+              >
+            </div>
+            <div class="cert-details">
+              <span class="cert-category">UDEMY</span>
+              <h4>Dominando Banco de Dados com MySQL</h4>
+              <div class="cert-tech-tags">
+                <span>MySQL</span>
+                <span>SQL</span>
+                <span>Databases</span>
+              </div>
+              <div class="cert-actions mt-3" style="display: flex; gap: 0.5rem">
+                <a
+                  href="#"
+                  target="_blank"
+                  class="btn btn-pill-outline"
+                  style="padding: 0.4rem 0.8rem; font-size: 0.8rem"
+                  data-i18n="cert_btn_view"
+                  >Ver PDF</a
+                >
+                <a
+                  href="#"
+                  download
+                  class="btn btn-pill-solid"
+                  style="padding: 0.4rem 0.8rem; font-size: 0.8rem"
+                  data-i18n="cert_btn_download"
+                  >Baixar</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Udemy Cert 7 -->
+          <div class="cert-card-bento">
+            <div class="cert-visual-wrapper placeholder-img-light">
+              <span
+                class="text-white"
+                style="
+                  font-size: 1.6rem;
+                  font-weight: 700;
+                  letter-spacing: 0.5px;
+                "
+                >Udemy</span
+              >
+            </div>
+            <div class="cert-details">
+              <span class="cert-category">UDEMY</span>
+              <h4>NestJS 10 Fundamentos</h4>
+              <div class="cert-tech-tags">
+                <span>NestJS</span>
+                <span>Node.js</span>
+                <span>TypeScript</span>
+              </div>
+              <div class="cert-actions mt-3" style="display: flex; gap: 0.5rem">
+                <a
+                  href="#"
+                  target="_blank"
+                  class="btn btn-pill-outline"
+                  style="padding: 0.4rem 0.8rem; font-size: 0.8rem"
+                  data-i18n="cert_btn_view"
+                  >Ver PDF</a
+                >
+                <a
+                  href="#"
+                  download
+                  class="btn btn-pill-solid"
+                  style="padding: 0.4rem 0.8rem; font-size: 0.8rem"
+                  data-i18n="cert_btn_download"
+                  >Baixar</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Udemy Cert 8 -->
+          <div class="cert-card-bento">
+            <div class="cert-visual-wrapper placeholder-img-light">
+              <span
+                class="text-white"
+                style="
+                  font-size: 1.6rem;
+                  font-weight: 700;
+                  letter-spacing: 0.5px;
+                "
+                >Udemy</span
+              >
+            </div>
+            <div class="cert-details">
+              <span class="cert-category">UDEMY</span>
+              <h4>Node JS Curso Completo do Básico ao Avançado</h4>
+              <div class="cert-tech-tags">
+                <span>Node.js</span>
+                <span>JavaScript</span>
+                <span>Backend</span>
+              </div>
+              <div class="cert-actions mt-3" style="display: flex; gap: 0.5rem">
+                <a
+                  href="#"
+                  target="_blank"
+                  class="btn btn-pill-outline"
+                  style="padding: 0.4rem 0.8rem; font-size: 0.8rem"
+                  data-i18n="cert_btn_view"
+                  >Ver PDF</a
+                >
+                <a
+                  href="#"
+                  download
+                  class="btn btn-pill-solid"
+                  style="padding: 0.4rem 0.8rem; font-size: 0.8rem"
+                  data-i18n="cert_btn_download"
+                  >Baixar</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Udemy Cert 9 -->
+          <div class="cert-card-bento">
+            <div class="cert-visual-wrapper placeholder-img-light">
+              <span
+                class="text-white"
+                style="
+                  font-size: 1.6rem;
+                  font-weight: 700;
+                  letter-spacing: 0.5px;
+                "
+                >Udemy</span
+              >
+            </div>
+            <div class="cert-details">
+              <span class="cert-category">UDEMY</span>
+              <h4>Aprenda Amazon S3, CloudFront CDN e SnowBall</h4>
+              <div class="cert-tech-tags">
+                <span>S3</span>
+                <span>CloudFront</span>
+                <span>Snowball</span>
+              </div>
+              <div class="cert-actions mt-3" style="display: flex; gap: 0.5rem">
+                <a
+                  href="#"
+                  target="_blank"
+                  class="btn btn-pill-outline"
+                  style="padding: 0.4rem 0.8rem; font-size: 0.8rem"
+                  data-i18n="cert_btn_view"
+                  >Ver PDF</a
+                >
+                <a
+                  href="#"
+                  download
+                  class="btn btn-pill-solid"
+                  style="padding: 0.4rem 0.8rem; font-size: 0.8rem"
+                  data-i18n="cert_btn_download"
+                  >Baixar</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Udemy Cert 10 -->
+          <div class="cert-card-bento">
+            <div class="cert-visual-wrapper placeholder-img-light">
+              <span
+                class="text-white"
+                style="
+                  font-size: 1.6rem;
+                  font-weight: 700;
+                  letter-spacing: 0.5px;
+                "
+                >Udemy</span
+              >
+            </div>
+            <div class="cert-details">
+              <span class="cert-category">UDEMY</span>
+              <h4>Aprenda TYPESCRIPT em 7 dias + Projetos Reais</h4>
+              <div class="cert-tech-tags">
+                <span>TypeScript</span>
+                <span>JavaScript</span>
+                <span>Projects</span>
+              </div>
+              <div class="cert-actions mt-3" style="display: flex; gap: 0.5rem">
+                <a
+                  href="#"
+                  target="_blank"
+                  class="btn btn-pill-outline"
+                  style="padding: 0.4rem 0.8rem; font-size: 0.8rem"
+                  data-i18n="cert_btn_view"
+                  >Ver PDF</a
+                >
+                <a
+                  href="#"
+                  download
+                  class="btn btn-pill-solid"
+                  style="padding: 0.4rem 0.8rem; font-size: 0.8rem"
+                  data-i18n="cert_btn_download"
+                  >Baixar</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="mt-section pb-4">
+      <div class="footer-content section-container">
+        <p data-i18n="footer_rights">
+          &copy; 2026 André Wanderley Porto. Todos os direitos reservados.
+        </p>
+        <div class="social-links">
+          <a href="https://github.com/Andrewanport" aria-label="GitHub"
+            ><svg
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+              ></path></svg
+          ></a>
+          <a href="https://www.linkedin.com/in/andrewanp" aria-label="LinkedIn"
+            ><svg
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
+              ></path>
+              <rect x="2" y="9" width="4" height="12"></rect>
+              <circle cx="4" cy="4" r="2"></circle></svg
+          ></a>
+        </div>
+      </div>
+    </footer>
+    <script src="js/translations.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

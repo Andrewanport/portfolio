@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contato | André Wanderley Porto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="page-fade inner-page contact-page">
+    <!-- Top Right Controls -->
+    <div class="top-controls">
+      <button
+        class="theme-toggle-btn icon-only lang-toggle-btn"
+        id="langToggle"
+        aria-label="Alternar idioma"
+      >
+        <img src="https://flagcdn.com/w40/br.png" alt="Português" />
+      </button>
+      <button
+        class="theme-toggle-btn icon-only"
+        id="themeToggle"
+        aria-label="Alternar tema"
+      >
+        <svg
+          width="20"
+          height="20"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+        >
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+        </svg>
+      </button>
+    </div>
+    <nav class="pill-nav" id="navbar">
+      <ul class="nav-links">
+        <li>
+          <a href="index.html" class="nav-link" data-i18n="nav_home">Início</a>
+        </li>
+        <li>
+          <a href="curriculo.html" class="nav-link" data-i18n="nav_resume"
+            >Currículo</a
+          >
+        </li>
+        <li>
+          <a href="projetos.html" class="nav-link" data-i18n="nav_projects"
+            >Projetos</a
+          >
+        </li>
+        <li>
+          <a
+            href="certificacoes.html"
+            class="nav-link"
+            data-i18n="nav_certifications"
+            >Certificações</a
+          >
+        </li>
+        <li>
+          <a href="contato.html" class="nav-link active" data-i18n="nav_contact"
+            >Contato</a
+          >
+        </li>
+      </ul>
+      <div class="hamburger" id="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+    </nav>
+    <div class="mobile-menu" id="mobileMenu">
+      <ul class="mobile-nav-links">
+        <li>
+          <a href="index.html" class="mobile-nav-link" data-i18n="nav_home"
+            >Início</a
+          >
+        </li>
+        <li>
+          <a
+            href="curriculo.html"
+            class="mobile-nav-link"
+            data-i18n="nav_resume"
+            >Currículo</a
+          >
+        </li>
+        <li>
+          <a
+            href="projetos.html"
+            class="mobile-nav-link"
+            data-i18n="nav_projects"
+            >Projetos</a
+          >
+        </li>
+        <li>
+          <a
+            href="certificacoes.html"
+            class="mobile-nav-link"
+            data-i18n="nav_certifications"
+            >Certificações</a
+          >
+        </li>
+        <li>
+          <a href="contato.html" class="mobile-nav-link" data-i18n="nav_contact"
+            >Contato</a
+          >
+        </li>
+      </ul>
+    </div>
+
+    <main class="main-content">
+      <section id="contact" class="section-container mt-section mb-5">
+        <div class="bento-box bento-full contact-bento">
+          <div class="contact-grid-split">
+            <div class="contact-info">
+              <h2
+                class="section-title"
+                style="text-align: left; margin-bottom: 1rem"
+                data-i18n="contact_title"
+              >
+                Vamos conversar
+              </h2>
+              <p
+                class="contact-desc"
+                style="margin-bottom: 2rem"
+                data-i18n="contact_desc"
+              >
+                Precisa do meu trabalho? Preencha o formulário e entrarei em
+                contato.
+              </p>
+
+              <div class="contact-methods">
+                <div class="method">
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path
+                      d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+                    ></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                  </svg>
+                  <a
+                    href="mailto:andrewanderleyporto@gmail.com"
+                    class="text-link"
+                    >andrewanderleyporto@gmail.com</a
+                  >
+                </div>
+                <div class="method mt-3">
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path
+                      d="M21 10.5h-8.5V2H21v8.5zm-10 0H2.5V2H11v8.5zm10 11.5h-8.5V13.5H21V22zm-10 0H2.5V13.5H11V22z"
+                    ></path>
+                  </svg>
+                  <span data-i18n="contact_location">João Pessoa, Brasil</span>
+                </div>
+              </div>
+            </div>
+
+            <form class="contact-form" id="contactForm">
+              <div class="form-group">
+                <label for="name" data-i18n="contact_label_name">Nome</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  required
+                  placeholder="Seu nome completo"
+                  data-i18n="contact_ph_name"
+                />
+              </div>
+              <div class="form-group">
+                <label for="email" data-i18n="contact_label_email"
+                  >E-mail</label
+                >
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  required
+                  placeholder="seu@email.com"
+                  data-i18n="contact_ph_email"
+                />
+              </div>
+              <div class="form-group">
+                <label for="message" data-i18n="contact_label_msg"
+                  >Mensagem</label
+                >
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="4"
+                  required
+                  placeholder="Como posso ajudar?"
+                  data-i18n="contact_ph_msg"
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-pill-solid w-100 mt-2">
+                <span data-i18n="contact_btn_send">Enviar Mensagem</span>
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="mt-section pb-4">
+      <div class="footer-content section-container">
+        <p data-i18n="footer_rights">
+          &copy; 2026 André Wanderley Porto. Todos os direitos reservados.
+        </p>
+        <div class="social-links">
+          <a href="https://github.com/Andrewanport" aria-label="GitHub"
+            ><svg
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+              ></path></svg
+          ></a>
+          <a href="https://www.linkedin.com/in/andrewanp" aria-label="LinkedIn"
+            ><svg
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
+              ></path>
+              <rect x="2" y="9" width="4" height="12"></rect>
+              <circle cx="4" cy="4" r="2"></circle></svg
+          ></a>
+        </div>
+      </div>
+    </footer>
+    <div id="toast" class="toast" data-i18n="contact_toast">
+      Mensagem enviada com sucesso!
+    </div>
+    <script src="js/translations.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
